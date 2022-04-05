@@ -1,0 +1,315 @@
+/*my rulz */
+body
+{
+    background-color: #efefef
+}
+
+.container
+{
+    width: 1170px;
+    margin: auto
+}
+
+.clear-fix
+{
+    clear: both
+}
+
+/*Start Header */
+
+header
+{
+    background-image: url(../Images/1.jpg);
+    background-size: cover;
+    height: 820px
+}
+
+header nav
+{
+    background-color: #173656;
+    height: 85px
+}
+
+header nav .container h2
+{
+    float: left;
+    color: #f2f2f2
+}
+
+header nav .container ul
+{
+    list-style: none;
+    float: right;
+}
+
+header nav .container ul li
+{
+    float: left;
+    padding: 20px;
+    height: 20px;
+    width: 50px
+}
+
+header nav .container ul li a
+{
+    text-decoration: none;
+    color: #f2f2f2
+}
+
+header nav .container ul li:hover
+{
+    background-color: #00cc99;
+    border-radius: 5px;
+    font-weight: bold
+}
+
+
+header h1
+{
+    margin: auto;
+    padding-top: 300px;
+    padding-left: 150px;
+    color: #f2f2f2
+}
+
+header h1 span
+{
+    color: #ffff4d;
+    display: inline
+}
+header p
+{
+    margin: auto;
+    padding-left: 200px;
+    color: #f2f2f2;
+    display: inline
+}
+
+
+/*End header */
+
+/*Start 1st s */
+
+.frist .container h2
+{
+    text-align: center;
+    color: #404040;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.frist .container .servies div
+{
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    text-align: center
+}
+
+.frist .container .servies div a
+{
+    text-decoration: none;
+    display: block;
+    color: #202020
+}
+/*End 1st s */
+
+/*Start 2ed s */
+
+.second
+{
+    background-color: #00cc99;
+    margin-top: 300px;
+    height: 1100px;
+    text-align: center
+}
+
+.second .container h2
+{
+    text-align: center;
+    color: #f2f2f2;
+    padding: 80px
+}
+
+.second .container div img
+{
+    float: left;
+    height: 350px;
+    width: 30%;
+    margin: 1.5%;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px #292828;
+    
+}
+
+.second .container button
+{
+    height: 35px;
+    width: 150px;
+    margin-top: 30px;
+    background-color: #204060;
+    border: 2px solid #204060;
+    border-radius: 4px;
+    color: #f2f2f2;
+    cursor: pointer
+}
+/*End 2ed s */
+
+/*Start 3rd s*/
+
+.third .container h2
+{
+    text-align: center;
+    padding: 40px
+}
+
+.third .container .team div
+{
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    text-align: center;
+    background-color: #00cc99;
+    height: 500px;
+    border-radius: 10px
+}
+
+.third .container .team div img
+{
+    height: 200px;
+    width: 200px;
+    border: 3px solid #0099ff;
+    border-radius: 50%;
+    margin-top: 30px
+}
+
+.third .container .team div h2
+{
+    padding: 20px;
+    color: #f2f2f2
+}
+
+.third .container .team div p
+{
+    padding: 10px;
+    color: #f6f6f6
+}
+/*End 3ed s */
+
+/*Start 4th s */
+
+.fourth
+{
+    background-color: #00cc99;
+    height: 240px;
+    margin-top: 600px
+}
+
+.fourth .container h2
+{
+    text-align: center;
+    color: #f2f2f2;
+    padding-top: 60px
+}
+
+.fourth .container form
+{
+    text-align: center;
+    padding-top: 20px
+}
+
+.fourth .container form .text
+{
+    background-color: #f2f2f2;
+    color: #b2b2b2;
+    width: 300px;
+    height: 32px;
+    padding: 4px;
+    border: 2px none #f2f2f2;
+    border-radius: 4px
+}
+
+.fourth .container form .button
+{
+    background-color: #f54949;
+    color: #fff;
+    width: 130px;
+    height: 40px;
+    border: 2px none #ff1a1a;
+    border-radius: 4px;
+    cursor: pointer
+}
+/*End 4th s */
+
+/*Start 5th s */
+
+.fifth
+{
+    height: 240px;
+    text-align: center;
+    padding-bottom: 40px
+}
+
+.fifth .container h2
+{
+    color: #404040;
+    padding-top: 60px
+}
+
+.fifth .container i
+{
+    padding: 40px
+}
+/*End 5th s */
+
+/*Start footer */
+footer
+{
+    background-color: #323030
+}
+
+footer .container
+{
+    text-align: center
+}
+footer .container div
+{
+    float: left;
+    width: 25%;
+    padding-bottom: 40px
+}
+
+footer .container div h2
+{
+    color: #fff;
+    text-align: left
+}
+
+footer .container div a
+{
+    display: block;
+    text-decoration: none;
+    color: #f4f4f4;
+    text-align: left
+}
+
+footer .container i
+{
+    background-color: #fff;
+    color: #323030;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    margin: 4px
+}
+
+footer .container p
+{
+    text-align: center;
+    color: #fff;
+    margin: auto
+}
+/*End footer */
